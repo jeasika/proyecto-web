@@ -4,9 +4,9 @@ var express = require("express");
 var morgan = require("morgan");
 var path = require('path');
 
-var index = require("./routes/index");
-var menu = require("./routes/menu");
-var reservaciones = require("./routes/reservaciones");
+var index = require("./routes/rutas");
+var menu = require("./routes/rutas");
+var reservaciones = require("./routes/rutas");
 
 var app = express();
 app.use(morgan('dev'));

@@ -169,7 +169,7 @@ header li {
 .reservation{
     height: 550px;
     text-align: center;
-    margin: 2%;
+    padding-top: 15%;
 }
 
 .form-central{
