@@ -5,12 +5,12 @@ app.get("/", (req, res) => {
     res.render('pages/index', {title:'Mercado del Mezcal'})
 })
 
-app.get("/menu", (req, res) => {
-    res.render('pages/menu', {title:'Menú'})
+app.get("/galeria", (req, res) => {
+    res.render('pages/galeria', {title:'Galería'})
 })
 
-app.get("/reservaciones", (req, res) => {
-    res.render('pages/reservaciones', {title:'Reservaciones'})
+app.get("/contacto", (req, res) => {
+    res.render('pages/contacto', {title:'Contacto'})
 })
 
 module.exports = app; 

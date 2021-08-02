@@ -134,33 +134,33 @@ header li {
     background-size: cover;
 }
 
-/********************MENU*********************/
+/********************GALERIA*********************/
 
-.menu{
+.galeria{
     clear: both;
     font-size: 20px;
     text-align: center;
     background: url(/fotos/local7.jpg);
 }
 
-.menu-inner{
+.galeria-inner{
     padding: 3rem;
     color: white;
 }
 
-.menu-title{
+.galeria-title{
     margin: 2rem;
 }
 
-.menu ul{
+.galeria ul{
     padding: 0;
 }
-.menu ul li {
+.galeria ul li {
     list-style: none;
     padding: 2rem;
 }
 
-.menu ul li div{
+.galeria ul li div{
     display: inline;
     padding: 4rem;
 }
