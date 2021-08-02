@@ -14,6 +14,7 @@ app.use(morgan('dev'));
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'assets')));
+app.use(express.static(path.join(__dirname, 'scripts')));
 
 app.use(express.urlencoded({ extended:true }));
 app.use(express.json());
