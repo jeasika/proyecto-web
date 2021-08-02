@@ -2,41 +2,91 @@
 
 <%-  include('../templates/nav-bar')   -%>
 
-<section class="reservation" id="reservation">
-    <br><h2>Formulario de reserva</h2>
-    <form action="#">
-        <div class="form-central">
-            <div class="form-left">
-                <label for="">Fecha</label>
-                <input type="date" name="" id="">
-    
-                <label for="">Nombre y Apellido</label>
-                <input type="text" name="" id="">
-    
-                <label for="">Hora</label>
-                <input type="time" name="" id="">
+    <br>
+        <h2>Reserva tu visita</h2>
+        <form class="row g-3" id="visita">
+
+            <div class="col-12">
+                <label for="name" class="form-label">
+                    Nombre y Apellido
+                </label>
+                <input type="text" class="form-control" id="name" placeholder="Jorge Flores Marroquín">
+            </div>
+            
+            <div class="col-4">
+                <label for="date" class="form-label">
+                    Fecha
+                </label>
+                <select id="date" class="form-select">
+                    <option selected>Selecciona una fecha</option>
+                    <option>Martes 3 agosto</option>
+                    <option>Miércoles 4 agosto</option>
+                    <option>Jueves 5 agosto</option>
+                    <option>Viernes 6 agosto</option>
+                    <option>Sábado 7 agosto</option>
+                    <option>Lunes 9 agosto</option>
+                </select>
+            </div>
+            
+            <div class="col-4">
+                <label for="hour" class="form-label">
+                    Hora
+                </label>
+                <select id="hour" class="form-select">
+                    <option selected>Selecciona una hora</option>
+                    <option>10:00 - 11:00</option>
+                    <option>11:00 - 12:00</option>
+                    <option>12:00 - 13:00</option>
+                    <option>13:00 - 14:00</option>
+                    <option>14:00 - 15:00</option>
+                    <option>15:00 - 16:00</option>
+                    <option>16:00 - 17:00</option>
+                    <option>17:00 - 18:00</option>
+                    <option>18:00 - 19:00</option>
+                </select>
+            </div>
+            
+            <div class="col-4">
+                <label for="visitantes" class="form-label">
+                    No. de visitantes
+                </label>
+                <select id="visitantes" class="form-select">
+                    <option selected>Selecciona no. de visitantes</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            
+            <div class="col-6">
+                <label for="email" class="form-label">
+                    Email
+                </label>
+                <input type="email" class="form-control" id="email" placeholder="hello@example.com">
+            </div>
+            
+            <div class="col-6">
+                <label for="phone" class="form-label">
+                    Teléfono
+                </label>
+                <input type="text" class="form-control" id="phone" placeholder="01 234 345 6789">
+            </div>
+            
+            <div class="col-12">
+                <button type="button" class="btn btn-success" id="agregar">
+                    Add item
+                </button>
             </div>
 
-            <div class="form-right">
-                <label for="">E-mail</label>
-                <input type="email" name="" id="">
-    
-                <label for="">Cantidad de comensales</label>
-                <input type="number" name="" id="">
-                
-                <label for="">Teléfono</label>
-                <input type="text" name="" id="">
-            </div>
+        </form>
+        <ul class="lista" id="list">
 
-
-            <label for="">Comentarios</label>
-            <textarea name="" id="" cols="autoplay" rows="4"></textarea>
-
-            <input type="submit" value="Reservar">
-        </div>
-</section>
-
+        </ul>
 <footer>
     <p>Las achetemeles &copy;. Todos los derechos reservados.</p>
 </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="script-contacto.js"></script>
 <%-  include('../templates/footer')   -%>
