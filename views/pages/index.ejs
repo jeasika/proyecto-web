@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado del Mezcal</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <%-  include('../templates/header')   -%>
     <header>
         <div class="header-container">
             <h1><a href="index.html">Mercado del Mezcal</a></h1>
@@ -24,11 +15,11 @@
     
     <section class="presentation" id="presentation">
         <div class="presentation-video">
-            <video src="./recursos/videos/promo.mp4" autoplay muted loop></video>
+            <video src="/videos/promo.mp4" autoplay muted loop></video>
         </div>
         <div class="dark-overlay">
             <div class="presentation-content">
-                <img id="logo" src="recursos/fotos/logo.jpg" alt="Logo de Mercado del Mezcal" width="200" height="200">
+                <img id="logo" src="/fotos/logo.jpg" alt="Logo de Mercado del Mezcal" width="200" height="200">
                 <h2>Mercado del Mezcal</h2>
                 <div class="p-container">
                     <p class="space">Más de cuarenta casas mezcaleras con más de trescientas líneas de</p>
@@ -40,7 +31,6 @@
 
     <section class="about" id="about">
         <div class="about-container left" id="about-img1">
-            
         </div>
         <div class="about-container right about-content">
             <h2 class="about-title">Sobre nosotros</h2>
@@ -118,7 +108,7 @@
     
     
                 <label for="">Comentarios</label>
-                <textarea name="" id="" cols="120" rows="4"></textarea>
+                <textarea name="" id="" cols="autoplay" rows="4"></textarea>
     
                 <input type="submit" value="Reservar">
             </div>
@@ -127,6 +117,4 @@
     <footer>
         <p>Pizzería &copy;. Todos los derechos reservados.</p>
     </footer>
-
-</body>
-</html>
+    <%-  include('../templates/footer')   -%>

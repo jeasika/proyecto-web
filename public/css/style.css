@@ -121,14 +121,14 @@ header li {
 }
 
 #about-img1{
-    background: url(/proyecto-web/recursos/fotos/local.jpg);
+    background: url(/fotos/local.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #about-img2{
-    background: url(/proyecto-web/recursos/fotos/local6.jpg);
+    background: url(/fotos/local6.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@ header li {
     clear: both;
     font-size: 20px;
     text-align: center;
-    background: url(./proyecto-web/images/local7.jpg);
+    background: url(/fotos/local7.jpg);
 }
 
 .menu-inner{
