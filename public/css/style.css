@@ -169,10 +169,12 @@ header li {
 .reservation{
     height: 550px;
     text-align: center;
+    margin: 2%;
 }
 
 .form-central{
     display: block;
+
 }
 
 .form-left{
@@ -222,4 +224,19 @@ footer{
     text-align: center;
     height: 2rempx;
     padding: 1rem;
+}
+
+/* Media Query for Mobiles */
+@media (max-width: 767px) {
+
+}
+
+/* Media Query for Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* Media Query for Large Screens */
+@media (min-width: 1025px) {
+
 }
